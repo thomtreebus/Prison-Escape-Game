@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ Item\ -\ an\ item\ in\ prison\ break\ adventure\ game\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\ \r\n\ An\ "Item"\ represents\ an\ item\ that\ can\ be\ found\ in\ the\ game.\ It\ has\ a\r\n\ name,\ description,\ weight,\ and\ location.\ \r\n\ Items\ can\ be\ picked\ up\ and\ dropped\ by\ the\ player.\r\n\r\n\ @author\ Thom\ Treebus\ (k20069603)\r\n\ @version\ 1.0\ 20/11/2020\r\n
+comment1.params=name\ description\ weight\ location
+comment1.target=Item(java.lang.String,\ java.lang.String,\ int,\ Room)
+comment1.text=\r\n\ Create\ an\ item\ described\ "description".\ Initially,\ it\ has\r\n\ no\ description.\ "description"\ is\ something\ like\ "a\ key"\ or\r\n\ "a\ piece\ of\ metal"\r\n\ The\ weight\ of\ the\ item\ refers\ to\ how\ much\ it\ weight\ in\ kilograms.\ E.g.\ "5"\r\n\ @param\ name\ The\ item's\ name\r\n\ @param\ description\ The\ item's\ description\r\n\ @param\ weight\ The\ item's\ weight\r\n\ @param\ location\ The\ room\ where\ the\ item\ is\ located.\r\n\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment4.params=
+comment4.target=int\ getWeight()
+comment5.params=
+comment5.target=Room\ getLocation()
+comment6.params=location
+comment6.target=void\ setLocation(Room)
+numComments=7
